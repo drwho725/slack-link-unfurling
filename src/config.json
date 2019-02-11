@@ -1,0 +1,8 @@
+{
+    "clientId": "",
+    "clientSecret": "",
+    "clientSigningSecret": "",
+    "port": 1337,
+    "oAuthToken": "",
+    "botToken": ""
+}
