@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint --config .eslintrc.json src/*.js",
-    "run": "pm2 start ecosystem.config.js"
+    "run": "pm2 start ecosystem.config.js",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -27,6 +29,8 @@
     "botkit": "^0.7.2",
     "eslint": "^5.13.0",
     "pm2": "^5.4.0",
-    "winston": "^3.2.1"
-  }
+    "winston": "^3.2.1",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
