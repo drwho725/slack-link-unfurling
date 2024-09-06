@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/drwho725/slack-link-unfurling#readme",
   "dependencies": {
-    "botkit": "^0.7.2",
+    "botkit": "^4.0.0",
     "eslint": "^9.8.0",
     "pm2": "^5.4.2",
     "winston": "^3.14.0",
