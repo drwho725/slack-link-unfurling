@@ -30,7 +30,7 @@
     "eslint": "^9.8.0",
     "pm2": "^5.4.2",
     "winston": "^3.14.1",
-    "@snyk/protect": "1.1292.2"
+    "@snyk/protect": "1.1292.4"
   },
   "snyk": true
 }
